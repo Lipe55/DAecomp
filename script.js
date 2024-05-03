@@ -24,5 +24,7 @@ function toggleMode() {
     }
 }
 
-
+window.onload = function() {
+    toggleMode();
+    }
 
