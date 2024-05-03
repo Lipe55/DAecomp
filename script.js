@@ -23,3 +23,8 @@ function toggleMode() {
         tenisImg.src = './imagensda/tenis-branco.png';
     }
 }
+
+window.onload = function() {
+    toggleMode();
+}
+
